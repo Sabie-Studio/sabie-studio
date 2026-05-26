@@ -55,11 +55,11 @@ function App() {
         <div className="locations" aria-label="Studio locations">
           <div className="location">
             <MapPin />
-            <span>United Kingdom</span>
+            <span>Cornwall, United Kingdom</span>
           </div>
           <div className="location">
             <MapPin />
-            <span>United States</span>
+            <span>Florida, United States</span>
           </div>
         </div>
 
