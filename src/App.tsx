@@ -64,7 +64,7 @@ function App() {
         </div>
 
         <p className="copyright">
-          © 2026 Sabie Studio. All rights reserved. sabie.studio
+          © 2026 Sabie Studio. All rights reserved.
         </p>
       </footer>
     </main>
