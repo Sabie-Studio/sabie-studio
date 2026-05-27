@@ -1,11 +1,11 @@
 .page-shell {
-  min-height: 100vh;
-  max-width: 1200px;
+  max-width: 1440px;
   margin-inline: auto;
   padding: 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
+}
+
+.page-shell > * + * {
+  margin-top: 40px;
 }
 
 .topbar {
@@ -38,25 +38,15 @@
 }
 
 .hero {
-  flex: 1 0 auto;
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 28px;
-  min-height: 0;
-}
-
-.hero-middle {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 0;
 }
 
 .hero-copy {
   display: grid;
-  gap: 0px;
+  gap: 16px;
   padding-left: 40px;
+  padding-block: clamp(20px, 3vw, 36px);
 }
 
 .hero h1 {
@@ -71,7 +61,8 @@
 }
 
 .intro {
-  max-width: min(680px, 100%);
+  margin: 0;
+  max-width: min(760px, 100%);
   text-wrap: balance;
   font-size: clamp(15px, 0.45vw + 14.4px, 17px);
   line-height: 1.7;
@@ -79,7 +70,6 @@
 }
 
 .image-grid {
-  flex-shrink: 0;
   display: grid;
   gap: 20px;
   align-items: start;

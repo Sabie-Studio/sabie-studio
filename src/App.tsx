@@ -29,17 +29,15 @@ function App() {
       </header>
 
       <section className="hero" aria-label="Sabie Studio">
-        <div className="hero-middle">
-          <div className="hero-copy">
-            <h1>
-              Designing digital experiences for the world&apos;s most beautiful spaces.
-            </h1>
-            <p className="intro">
-              We partner with interior designers, architects, hospitality brands,
-              and builders to create elevated websites, content, and digital
-              experiences that reflect the quality of their work.
-            </p>
-          </div>
+        <div className="hero-copy">
+          <h1>
+            Designing digital experiences for the world&apos;s most beautiful spaces.
+          </h1>
+          <p className="intro">
+            We partner with interior designers, architects, hospitality brands,
+            and builders to create elevated websites, content, and digital
+            experiences that reflect the quality of their work.
+          </p>
         </div>
 
         <div className="image-grid" aria-label="Sabie Studio preview images">
@@ -59,7 +57,7 @@ function App() {
           </div>
           <div className="location">
             <MapPin />
-            <span>Florida, USA</span>
+            <span>Florida, US</span>
           </div>
         </div>
 
